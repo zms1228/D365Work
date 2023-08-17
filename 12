@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table Example</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  select, input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+</style>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>LABEL</th>
+      <th>PROGRESS</th>
+      <th>NOTE</th>
+    </tr>
+    <tr>
+      <td>Step 1</td>
+      <td><select>
+        <option value="25%">25%</option>
+        <option value="50%">50%</option>
+        <option value="75%">75%</option>
+        <option value="100%">100%</option>
+      </select></td>
+      <td><input type="text" placeholder="Enter note"></td>
+    </tr>
+
+    <tr>
+        <td>Step 2</td>
+        <td><select>
+          <option value="25%">25%</option>
+          <option value="50%">50%</option>
+          <option value="75%">75%</option>
+          <option value="100%">100%</option>
+        </select></td>
+        <td><input type="text" placeholder="Enter note"></td>
+      </tr>
+      <tr>
+        <td>Step 3</td>
+        <td><select>
+          <option value="25%">25%</option>
+          <option value="50%">50%</option>
+          <option value="75%">75%</option>
+          <option value="100%">100%</option>
+        </select></td>
+        <td><input type="text" placeholder="Enter note"></td>
+      </tr>
+      <tr>
+        <td>Step 4</td>
+        <td><select>
+          <option value="25%">25%</option>
+          <option value="50%">50%</option>
+          <option value="75%">75%</option>
+          <option value="100%">100%</option>
+        </select></td>
+        <td><input type="text" placeholder="Enter note"></td>
+      </tr>
+      <tr>
+
+  </table>
+</body>
+</html>
